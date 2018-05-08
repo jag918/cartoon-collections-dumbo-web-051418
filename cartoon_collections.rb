@@ -8,7 +8,7 @@ end
 def summon_captain_planet(elements)
   # Your code here
   elements.collect {|element|
-    element.capitalize + "!"
+    element.titleize + "!"
   }
 end
 
