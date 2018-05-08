@@ -25,9 +25,11 @@ def find_the_cheese(item_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese = nil
   cheese_name = ""
-  cheese_types.each_with_index {|cheese, index|
-    puts(cheese, index)
-  }
+  for item in item_array
+    if(cheese_types.include?(item))
+      cheese_name = item
+      break
+    end
+  end
+  cheese = cheese_types.find()
 end
-
-find_the_cheese(["eadfa","dfadf"])
