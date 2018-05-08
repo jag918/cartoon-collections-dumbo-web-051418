@@ -7,10 +7,10 @@ end
 
 def summon_captain_planet(elements)
   # Your code here
-  elements.collect {|element|
+  new_elem = elements.collect {|element|
     element + "!"
   }
-  puts elements
+  puts(new_elem)
 end
 
 summon_captain_planet(["earth", "water"])
