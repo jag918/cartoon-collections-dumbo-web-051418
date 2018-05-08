@@ -12,6 +12,8 @@ def summon_captain_planet(elements)
   }
 end
 
+summon_captain_planet(["earth", "water"])
+
 def long_planeteer_calls(words)
   # Your code here
   words.any? {|word|
