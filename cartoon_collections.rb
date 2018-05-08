@@ -19,8 +19,13 @@ def long_planeteer_calls(words)
   }
 end
 
-def find_the_cheese(cheese)
+def find_the_cheese(item_array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.include
+  cheese = nil
+  for item in item_array
+    if(cheese_types.include?(item))
+      break
+    
+  end
 end
