@@ -29,3 +29,5 @@ def find_the_cheese(item_array)
     puts(cheese, index)
   }
 end
+
+find_the_cheese(["eadfa","dfadf"])
