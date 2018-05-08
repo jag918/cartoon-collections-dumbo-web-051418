@@ -25,11 +25,7 @@ def find_the_cheese(item_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese = nil
   cheese_name = ""
-  for item in item_array
-    if(cheese_types.include?(item))
-      cheese_name = item
-      break
-    end
-  end
-  cheese = cheese_types.find()
+  item_array.each{|item|
+    if()
+  }
 end
