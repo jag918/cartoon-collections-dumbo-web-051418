@@ -12,8 +12,11 @@ def summon_captain_planet(elements)
   }
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(words)
   # Your code here
+  words.find {|word|
+    word.l
+  }
 end
 
 def find_the_cheese# code an argument here
