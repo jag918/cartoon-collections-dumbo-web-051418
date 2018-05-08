@@ -10,10 +10,8 @@ def summon_captain_planet(elements)
   new_elem = elements.collect {|element|
     element[0].upcase + element[1..-1] + "!"
   }
-  puts(new_elem)
+  new_elem
 end
-
-summon_captain_planet(["earth", "water"])
 
 def long_planeteer_calls(words)
   # Your code here
